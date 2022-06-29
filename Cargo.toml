@@ -1,0 +1,28 @@
+[package]
+name = "rename"
+version = "0.1.0"
+authors = ["iamgabrielsoft"]
+description = "Rename your files using your favorite text editor"
+edition = "2021"
+keywords = ["cli", "tool", "rename"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+
+[dependencies]
+anyhow = "1.0.32"
+thiserror = "1.0.20"
+subprocess = "0.2.4"
+clap = {version = "3.0.1", features = ["derive"]}
+# clap = { git = "https://github.com/clap-rs/clap", tag = "v3.0.1" }
+tempfile = "3.1.0"
+dialoguer = "0.6.2"
+ansi_term = "0.12.1"
+shell-escape = "0.1.5"
+diff = "0.1.12"
+
+[dev-dependencies]
+assert_cmd = "1.0.1"
+predicates = "1.0.5"
