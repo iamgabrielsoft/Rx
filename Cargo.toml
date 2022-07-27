@@ -1,10 +1,10 @@
 [package]
-name = "rename"
+name = "rx"
 version = "0.1.0"
 authors = ["iamgabrielsoft <iamgabrielsoft@gmail.com>"]
 description = "Rename your files and directories using your favorite text editor"
 edition = "2021"
-keywords = ["cli", "tool", "rename"]
+keywords = ["cli", "tool", "rename", "file-renamer", "directory"]
 license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
