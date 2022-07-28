@@ -2,7 +2,7 @@
 name = "rx"
 version = "0.1.0"
 authors = ["iamgabrielsoft <iamgabrielsoft@gmail.com>"]
-description = "Rename your files and directories using your favorite text editor"
+description = "Rename your files and directories"
 edition = "2021"
 keywords = ["cli", "tool", "rename", "file-renamer", "directory"]
 license = "MIT"
